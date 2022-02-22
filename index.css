@@ -5,7 +5,6 @@
 .page {
   margin: 0 auto;
   max-width: 1280px;
-  border: 1px solid red;
   background-color: #2a2c2f;
 }
 @media screen and (max-width: 1024px){
@@ -15,12 +14,12 @@
 }
 @media screen and (max-width: 768px){
   .page {
-    max-width: 1024px;
+    max-width: 768px;
   }
 }
 @media screen and (max-width: 320px){
   .page {
-    max-width: 1024px;
+    max-width: 320px;
   }
 }
 /* CSS FOR HEADER */
@@ -28,11 +27,10 @@
   margin: 0 auto;
   max-width: 1184px;
   min-height: 52px;
-  margin-top: 28px;
-  margin-bottom: 56px;
-  margin-left: 48px;
-  margin-right: 48px;
-  border: 1px solid red;
+  padding-top: 28px;
+  padding-bottom: 56px;
+  padding-left: 48px;
+  padding-right: 48px;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -66,25 +64,25 @@
   .header{
     max-width: 928px;
     min-height: 52px;
-    margin-bottom: 48px;
+    padding-bottom: 48px;
   }
 @media screen and (max-width: 756px) {
   .header{
     max-width: 720px;
     min-height: 52px;
-    margin-bottom: 48px;
-    margin-left: 24px;
-    margin-right: 24px;
+    padding-bottom: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 @media screen and (max-width: 320px) {
   .header{
     max-width: 288px;
     min-height: 42px;
-    margin-top: 16px;
-    margin-bottom: 48px;
-    margin-left: 16px;
-    margin-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 48px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .header__logo {
     max-width: 142px;
@@ -101,8 +99,6 @@
 /* CSS FOR LEAD */
 .lead {
   margin: 0 auto;
-  margin-left: 148px;
-  margin-right: 148px;
   max-width: 984px;
   min-height: 1005px;
   border: 1px solid red;
@@ -154,8 +150,8 @@
   .lead {
     max-width: 928px;
     min-height: 962px;
-    margin-left: 48px;
-    margin-right: 48px;
+    padding-left: 48px;
+    padding-right: 48px;
   }
   .lead__subtitle {
     margin-bottom: 56px;
@@ -168,8 +164,8 @@
 @media screen and (max-width: 768px){
   .lead {
     margin:auto;
-    margin-left: 0;
-    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
     max-width: 788px;
     min-height: 862px;
   }
@@ -190,8 +186,8 @@
 @media screen and (max-width: 320px){
   .lead {
     margin:auto;
-    margin-left: 0;
-    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
     max-width: 320px;
     min-height: 406px;
   }
@@ -222,9 +218,9 @@
 .intro {
   border: 1px solid red;
   margin: 0;
-  margin-left: 148px;
-  margin-right: 442px;
-  margin-top: 92px;
+  padding-left: 148px;
+  padding-right: 442px;
+  padding-top: 92px;
   max-width: 690px;
   min-height: 429px;
 }
@@ -265,15 +261,15 @@
 }
 @media screen and (max-width: 1024px) {
   .intro {
-    margin-left: 48px;
-    margin-right: 286px;
+    padding-left: 48px;
+    padding-right: 286px;
   }
 }
 @media screen and (max-width: 768px) {
   .intro {
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-top: 88px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 88px;
     max-width: 720px;
   }
   .intro__title {
@@ -288,9 +284,9 @@
 }
 @media screen and (max-width: 320px) {
   .intro {
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-top: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 64px;
     max-width: 288px;
     min-height: 754px;
   }
@@ -316,9 +312,9 @@
   margin: 0 auto;
   max-width: 1184px;
   min-height: 671px;
-  margin-left: 48px;
-  margin-right: 48px;
-  margin-top: 92px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 92px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   grid-template-rows: repeat(3, 1fr);
@@ -334,9 +330,9 @@
     margin: 0 auto;
     max-width: 928px;
     min-height: 942px;
-    margin-top: 92px;
-    margin-left: 48px;
-    margin-right: 48px;
+    padding-top: 92px;
+    padding-left: 48px;
+    padding-right: 48px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     grid-template-rows: repeat(4, 1fr);
@@ -353,9 +349,9 @@
     margin: 0 auto;
     max-width: 720px;
     min-height: 1664px;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-top: 88px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 88px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     grid-template-rows: repeat(6, 1fr);
@@ -372,9 +368,9 @@
     margin: 0 auto;
     max-width: 288px;
     min-height: 2724px;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-top: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 64px;
     display: grid;
     grid-template-rows: repeat(12, 1fr);
     column-gap: 12px;
@@ -388,10 +384,10 @@
 /* CSS FOR PLACE */
 .places {
   margin: 0;
-  margin-top: 92px;
-  margin-bottom: 92px;
-  margin-left: 148px;
-  margin-right: 148px;
+  padding-top: 92px;
+  padding-bottom: 92px;
+  padding-left: 148px;
+  padding-right: 148px;
 }
 .place {
   display: grid;
@@ -402,10 +398,10 @@
     "image paragraph";
   column-gap: 40px;
   row-gap: 48px;
-  margin-top: 80px;
+  padding-top: 80px;
 }
 .place:first-of-type {
-  margin-top: 0;
+  padding-top: 0;
 }
 .place__title {
   margin: 0;
@@ -464,10 +460,10 @@
 @media screen and (max-width: 1024px){
   .places {
     margin: 0;
-    margin-top: 92px;
-    margin-bottom: 92px;
-    margin-left: 48px;
-    margin-right: 48px;
+    padding-top: 92px;
+    padding-bottom: 92px;
+    padding-left: 48px;
+    padding-right: 48px;
   }
   .place {
     display: grid;
@@ -478,15 +474,14 @@
       "image paragraph";
     column-gap: 32px;
     row-gap: 48px;
-    margin-top: 80px;
+    padding-top: 80px;
   }
   .place:first-of-type {
-    margin-top: 0;
+    padding-top: 0;
   }
   .place__title {
     margin: 0;
     max-width: 440px;
-    min-height: 152px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 900;
@@ -539,10 +534,10 @@
 @media screen and (max-width: 768px){
   .places {
     margin: 0;
-    margin-top: 88px;
-    margin-bottom: 90px;
-    margin-left: 24px;
-    margin-right: 24px;
+    padding-top: 88px;
+    padding-bottom: 90px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
   .place {
     display: grid;
@@ -553,10 +548,10 @@
       "image paragraph";
     column-gap: 28px;
     row-gap: 48px;
-    margin-top: 73px;
+    padding-top: 73px;
   }
   .place:first-of-type {
-    margin-top: 0;
+    padding-top: 0;
   }
   .place__title {
     margin: 0;
@@ -616,8 +611,10 @@
 @media screen and (max-width: 320px){
   .places {
     margin: 0 auto;
-    margin-top: 64px;
-    margin-bottom: 66px;
+    padding-top: 64px;
+    padding-bottom: 66px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .place {
     margin: 0;
@@ -629,13 +626,15 @@
       "image" 
       "paragraph";
     column-gap: 32px;
-    margin-top: 50px;
+    padding-top: 50px;
   }
   .place:first-of-type {
-    margin-top: 0;
+    padding-top: 0;
   }
   .place__title {
     margin: 0;
+    padding-left: 16px;
+    padding-right: 16px;
     max-width: 288px;
     min-height: 35px;
     font-family: "Inter";
@@ -652,6 +651,8 @@
     grid-area: image;
   }
   .place__website {
+    padding-left: 16px;
+    padding-right: 16px;
     align-self: flex-end;
     grid-area: link;
   }
@@ -904,13 +905,13 @@
 /* CSS FOR FOOTER */
 .footer {
   margin: 0 auto;
-  margin-top: 92px;
-  margin-left: 48px;
-  margin-right: 48px;
+  padding-top: 92px;
+  padding-left: 48px;
+  padding-right: 48px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-bottom: 24px;
+  padding-bottom: 24px;
 }
 .footer__links {
   word-spacing: 18px;
@@ -941,13 +942,13 @@
 @media screen and (max-width: 768px){
   .footer {
     margin: 0 auto;
-    margin-top: 88px;
-    margin-left: 24px;
-    margin-right: 24px;
+    padding-top: 88px;
+    padding-left: 24px;
+    padding-right: 24px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-bottom: 24px;
+    padding-bottom: 24px;
   }
   .footer__link {
     margin: 0;
@@ -974,13 +975,14 @@
 }
 @media screen and (max-width: 320px){
   .footer {
-    margin-top: 64px;
+    margin: 0;
+    padding-top: 64px;
     max-width: 186px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: column;
-    margin-bottom: 24px;
+    padding-bottom: 24px;
   }
   .footer__links {
     display: flex;
