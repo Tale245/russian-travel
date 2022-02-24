@@ -1,0 +1,31 @@
+.lead {
+    margin: 0 auto;
+    max-width: 984px;
+    min-height: 1005px;
+  }
+@media screen and (max-width: 1024px){
+    .lead {
+      max-width: 928px;
+      min-height: 962px;
+      padding-left: 48px;
+      padding-right: 48px;
+    }
+}
+@media screen and (max-width: 768px){
+    .lead {
+      margin:auto;
+      padding-left: 0;
+      padding-right: 0;
+      max-width: 788px;
+      min-height: 862px;
+    }
+}
+@media screen and (max-width: 320px){
+    .lead {
+      margin:auto;
+      padding-left: 0;
+      padding-right: 0;
+      max-width: 320px;
+      min-height: 406px;
+    }
+}

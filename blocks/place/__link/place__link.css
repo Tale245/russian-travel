@@ -1,0 +1,57 @@
+.place__link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  text-decoration: underline;
+}
+.place__link:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+@media screen and (max-width: 1024px) {
+  .place__link {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+  .place__link:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}
+@media screen and (max-width: 768px) {
+  .place__link {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  .place__link:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place__link {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  .place__link:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}
