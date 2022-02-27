@@ -1,6 +1,7 @@
 .place__paragraph {
   margin: 0;
   margin-bottom: 26px;
+  max-width: 352px;
   font-family: "Inter";
   font-style: normal;
   font-weight: normal;
@@ -13,10 +14,10 @@
   .place__paragraph {
     margin: 0;
     margin-bottom: 26px;
+    max-width: 352px;
     font-family: "Inter";
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
     line-height: 29px;
     color: #ffffff;
     grid-area: paragraph;
@@ -26,6 +27,7 @@
   .place__paragraph {
     margin: 0;
     margin-bottom: 25px;
+    max-width: 352px;
     font-family: "Inter";
     font-style: normal;
     font-weight: normal;
@@ -38,6 +40,7 @@
 @media screen and (max-width: 320px) {
   .place__paragraph {
     margin: 0;
+    max-width: 352px;
     margin-bottom: 25px;
     margin-left: 16px;
     margin-right: 16px;
