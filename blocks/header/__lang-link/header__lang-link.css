@@ -2,6 +2,7 @@
     max-width: 30px;
     min-height: 28px;
     line-height: 28px;
+    margin-left: 18px;
     font-size: 24px;
     font-family: "Inter";
     font-style: normal;
@@ -9,10 +10,12 @@
     color: #ffffff;
     text-decoration: none;
     animation: opacity 0.5s linear;
+    
   }
   .header__lang-link:hover {
     opacity: 0.8;
   }
+
   @media screen and (max-width:320px){
     .header__lang-link {
         max-width: 22px;

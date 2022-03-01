@@ -1,14 +1,19 @@
-.cover__overlay {
+/* .cover__overlay {
   width: 100%;
   height: 100%;
-  position: absolute;
-  background: #2a2c2f;
   opacity: 0.3;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #2a2c2f;
+  z-index: -5;
+  transition: opacity 200ms ease-in-out;
 }
-.cover__overlay:hover {
+.cover__overlay:hover{
   opacity: 0.7;
-  cursor: pointer;
-}
+} */
 @media screen and (max-width: 1024px) {
   .cover__overlay {
     width: 100%;

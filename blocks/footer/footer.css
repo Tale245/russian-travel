@@ -7,6 +7,7 @@
   justify-content: space-between;
   align-items: flex-end;
   padding-bottom: 24px;
+  border: 1px solid red;
 }
 @media screen and (max-width: 768px) {
   .footer {

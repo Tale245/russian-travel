@@ -1,3 +1,4 @@
 .header__links {
-    word-spacing: 18px;
+    display: flex;
+    list-style-type: none;
   }
