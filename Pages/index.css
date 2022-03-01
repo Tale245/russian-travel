@@ -42,7 +42,6 @@
   flex-direction: column;
   justify-content: center;
   position: relative;
-  border: 1px solid red;
   max-width: 1184px;
   min-height: 740px;
 }
@@ -104,4 +103,10 @@
     line-height: 22px;
     text-align: center;
     color: #FFFFFF; 
+}
+.footer__links-items{
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    padding: 0;
 }

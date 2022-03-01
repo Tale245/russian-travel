@@ -1,6 +1,3 @@
-.footer__links {
-  word-spacing: 18px;
-}
 @media screen and (max-width: 320px) {
   .footer__links {
     display: flex;
