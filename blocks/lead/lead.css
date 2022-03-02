@@ -8,25 +8,30 @@
     .lead {
       max-width: 928px;
       min-height: 962px;
-      padding-left: 48px;
-      padding-right: 48px;
+      padding-top: 48px;
     }
 }
 @media screen and (max-width: 768px){
     .lead {
-      margin:auto;
-      padding-left: 0;
-      padding-right: 0;
+      margin: 0;
       max-width: 788px;
       min-height: 862px;
+      padding-top: 48px;
     }
+}
+@media screen and (max-width: 550px){
+  .lead {
+    margin: 0;
+    max-width: 550px;
+    min-height: 406px;
+    padding-top: 48px;
+  }
 }
 @media screen and (max-width: 320px){
     .lead {
-      margin:auto;
-      padding-left: 0;
-      padding-right: 0;
+      margin: 0;
       max-width: 320px;
       min-height: 406px;
+      padding-top: 48px;
     }
 }

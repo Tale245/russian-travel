@@ -19,94 +19,96 @@
 @import url(../blocks/intro/__number/intro__number.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
-@import url(../blocks/places/places.css);
+/* @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
-@import url(../blocks/place/__paragraph/place__paragraph.css);
-/* @import url(../blocks/cover/cover.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css); */
+@import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
-@import url(../blocks/cover/__link/cover__link.css); */
+@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-.cover {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  max-width: 1184px;
-  min-height: 740px;
-}
-.cover__link {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 1184px;
-  min-height: 740px;
-  z-index: 0;
-  text-decoration: none;
-  min-height: 300px;
-}
+@import url(../blocks/footer/__link-item/footer__link-item.css);
 
-.cover__link:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0.5;
-  z-index: -1;
-  transition: opacity 500ms ease-in-out;
-}
-
-.cover__background {
-  position: absolute;
-  z-index: -2;
-  max-width: 1184px;
-  min-height: 740px;
-}
-
-.cover__link:hover:before {
-  opacity: 0.8;
-}
-.cover__title {
+.places{
     margin: 0 auto;
-  max-width: 560px;
-  min-height: 152px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
-  text-align: center;
-  color: #ffffff;
+    max-width:984px;
 }
-.cover__subtitle{
-    margin: 0 auto;
-    margin-top: 32px;
-    max-width: 360px;
-    min-height: 66px;
-    font-family: Inter;
+.place{
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px 1fr));
+    column-gap: 40px;
+    row-gap: 48px;
+    max-width: 984px;
+    min-height: 660px;
+    padding-top: 80px;
+}
+.place:first-of-type{
+    padding-top: 0;
+}
+.place__title{
+    margin: 0;
+    max-width: 460px;
+    min-height: 76px;
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    color: #FFFFFF;
+    border: 1px solid red;
+}
+.place__image{
+    max-width: 460px;
+    min-height: 460px;
+    grid-column: 1;
+    grid-row: 2;
+}
+.place__website{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 456px;
+    min-height: 46px;
+    grid-column: 2;
+    grid-row: 1;
+}
+.place__url-heading{
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    color: #AAAAAA;
+    
+}
+.place__link{
+    font-family: Inter, Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
-    text-align: center;
-    color: #FFFFFF; 
+    text-decoration-line: underline;
+    color: #FFFFFF;
 }
-.footer__links-items{
-    margin: 0 auto;
-    list-style-type: none;
-    display: flex;
-    padding: 0;
+.place__description{
+    max-width: 484px;
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+    grid-column: 2;
+    grid-row: 2;
 }
