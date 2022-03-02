@@ -19,14 +19,15 @@
 @import url(../blocks/intro/__number/intro__number.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
-/* @import url(../blocks/places/places.css);
+@import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
-@import url(../blocks/place/__paragraph/place__paragraph.css); */
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__description/place__description.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
@@ -37,78 +38,3 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link-item/footer__link-item.css);
-
-.places{
-    margin: 0 auto;
-    max-width:984px;
-}
-.place{
-    margin: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px 1fr));
-    column-gap: 40px;
-    row-gap: 48px;
-    max-width: 984px;
-    min-height: 660px;
-    padding-top: 80px;
-}
-.place:first-of-type{
-    padding-top: 0;
-}
-.place__title{
-    margin: 0;
-    max-width: 460px;
-    min-height: 76px;
-    font-family: Inter, Arial, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
-    color: #FFFFFF;
-    border: 1px solid red;
-}
-.place__image{
-    max-width: 460px;
-    min-height: 460px;
-    grid-column: 1;
-    grid-row: 2;
-}
-.place__website{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    max-width: 456px;
-    min-height: 46px;
-    grid-column: 2;
-    grid-row: 1;
-}
-.place__url-heading{
-    font-family: Inter, Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 12px;
-    letter-spacing: 2px;
-    color: #AAAAAA;
-    
-}
-.place__link{
-    font-family: Inter, Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    text-decoration-line: underline;
-    color: #FFFFFF;
-}
-.place__description{
-    max-width: 484px;
-    font-family: Inter, Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 29px;
-    color: #FFFFFF;
-    grid-column: 2;
-    grid-row: 2;
-}

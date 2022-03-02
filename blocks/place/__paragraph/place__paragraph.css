@@ -1,55 +1,49 @@
-.place__paragraph {
+.place__paragraph{
   margin: 0;
-  margin-bottom: 26px;
-  font-family: "Inter";
+  max-width: 484px;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 29px;
-  color: #ffffff;
-  grid-area: paragraph;
-  border: 1px solid red;
+  color: #FFFFFF;
+  grid-column: 2;
+  grid-row: 2;
 }
-@media screen and (max-width: 1024px) {
-  .place__paragraph {
-    margin: 0;
-    margin-bottom: 26px;
-    max-width: 352px;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: normal;
-    line-height: 29px;
-    color: #ffffff;
-    grid-area: paragraph;
+.place__paragraph:first-of-type{
+  margin-bottom: 26px;
+}
+@media screen and (max-width:1024px){
+  .place__paragraph{
+    max-width: 456px;
   }
 }
-@media screen and (max-width: 768px) {
-  .place__paragraph {
-    margin: 0;
-    margin-bottom: 25px;
+@media screen and (max-width:768px){
+  .place__paragraph{
     max-width: 352px;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 26px;
-    color: #ffffff;
-    grid-area: paragraph;
   }
 }
-@media screen and (max-width: 320px) {
-  .place__paragraph {
-    margin: 0;
-    max-width: 352px;
-    margin-bottom: 25px;
-    margin-left: 16px;
-    margin-right: 16px;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: normal;
+@media screen and (max-width:550px){
+  .place__paragraph{
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 550px;
     font-size: 16px;
     line-height: 26px;
-    color: #ffffff;
-    grid-area: paragraph;
+    grid-column: 1;
+    grid-row: 4;
+  }
+}
+@media screen and (max-width:320px){
+  .place__paragraph{
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 26px;
+    padding-left: 16px;
+    padding-right: 16px;
+    grid-column: 1;
+    grid-row: 4;
   }
 }
