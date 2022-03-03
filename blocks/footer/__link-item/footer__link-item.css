@@ -1,6 +1,11 @@
-.footer__links-items{
-    margin: 0 auto;
-    list-style-type: none;
-    display: flex;
-    padding: 0;
+.footer__link-item{
+    margin-right: 18px;
+}
+@media screen and (max-width: 660px){
+    .footer__link-item{
+        margin-top: 32px;
+    }
+    .footer__link-item:first-of-type{
+        margin-top: 0;
+    }
 }
