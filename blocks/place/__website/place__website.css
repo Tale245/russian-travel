@@ -17,7 +17,7 @@
     max-width: 550px;
     padding-left: 16px;
     grid-column: 1;
-    grid-row: 2
+    grid-row: 2;
   }
 }
 @media screen and (max-width: 320px){
@@ -25,6 +25,6 @@
     max-width: 288px;
     padding-left: 16px;
     grid-column: 1;
-    grid-row: 2
+    grid-row: 2;
   }
 }
