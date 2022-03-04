@@ -1,13 +1,11 @@
 .lead {
     margin: 0 auto;
     max-width: 984px;
-    min-height: 1005px;
     padding-top: 56px;
   }
 @media screen and (max-width: 1024px){
     .lead {
       max-width: 928px;
-      min-height: 962px;
       padding-top: 48px;
     }
 }
@@ -15,7 +13,6 @@
     .lead {
       margin: 0;
       max-width: 788px;
-      min-height: 862px;
       padding-top: 48px;
     }
 }
@@ -23,7 +20,6 @@
   .lead {
     margin: 0;
     max-width: 550px;
-    min-height: 406px;
     padding-top: 48px;
   }
 }
@@ -31,7 +27,6 @@
     .lead {
       margin: 0;
       max-width: 320px;
-      min-height: 406px;
       padding-top: 48px;
     }
 }

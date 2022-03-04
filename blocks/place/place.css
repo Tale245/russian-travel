@@ -25,16 +25,19 @@
   .place{
     max-width: 720px;
     column-gap: 28px;
+    padding-top: 73px;
   }
 }
-@media screen and (max-width:550px){
+@media screen and (max-width:670px){
   .place{
+    padding-top: 50px;
     max-width: 550px;
     row-gap: 32px;
   }
 }
 @media screen and (max-width:320px){
   .place{
+    padding-top: 50px;
     max-width: 320px;
     row-gap: 32px;
   }

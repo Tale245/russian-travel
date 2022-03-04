@@ -28,7 +28,7 @@
     padding-top: 88px;
   }
 }
-@media screen and (max-width:550px){
+@media screen and (max-width:670px){
   .places{
     max-width: 550px;
     padding-left: 0px;
@@ -37,13 +37,12 @@
   }
 }
 
-
 @media screen and (max-width:320px){
   .places{
     max-width: 320px;
     padding-left: 0px;
     padding-right: 0px;
-    padding-top: 64px;
+    padding-top: 66px;
+    padding-bottom: 66px;
   }
 }
-
