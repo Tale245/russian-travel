@@ -20,35 +20,20 @@
   .place__image{
     max-width: 330px;
     min-height: 330px;
-    grid-column: 1;
     grid-row: 3;
     padding-left: 16px;
   }
 }
 @media screen and (max-width:375px){
   .place__image{
-    padding-left: 0;
-    max-width: 320px;
-    min-height: 320px;
-    grid-column: 1;
-    grid-row: 3;
-  }
-}
-@media screen and (max-width:320px){
-  .place__image{
     padding: 0;
     max-width: 320px;
     min-height: 320px;
-    grid-column: 1;
-    grid-row: 3;
   }
 }
 @media screen and (max-width:316px){
   .place__image{
-    padding: 0;
     max-width: 316px;
     min-height: 316px;
-    grid-column: 1;
-    grid-row: 3;
   }
 }

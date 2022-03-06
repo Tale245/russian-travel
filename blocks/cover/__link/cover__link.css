@@ -43,7 +43,6 @@
   @media screen and (max-width: 760px) {
     .cover__link{
       max-width: 760px;
-      min-height: 480px;
       background-size:cover;
     }
   }
@@ -57,7 +56,5 @@
   @media screen and (max-width: 316px) {
     .cover__link{
       background-size:cover;
-      max-width: 319px;
-      min-height: 200px;
     }
   }

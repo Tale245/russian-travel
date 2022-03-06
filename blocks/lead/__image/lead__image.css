@@ -15,27 +15,22 @@
     .lead__image {
       max-width: 768px;
       min-height: 480px;
-      margin-top: 56px;
     }
 }
 @media screen and (max-width: 550px){
   .lead__image {
-    max-width: 100%;
     min-height: 400px;
     margin-top: 40px;
   }
 }
 @media screen and (max-width: 450px){
   .lead__image {
-    max-width: 100%;
     min-height: 300px;
-    margin-top: 40px;
   }
 }
 @media screen and (max-width: 320px){
     .lead__image {
       max-width: 320px;
       min-height: 200px;
-      margin-top: 40px;
     }
 }
